@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - Brownie Bliss</title>
+</head>
+<body>
+    <header>
+        <h1>Get in Touch with Us!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="recipe.html">Recipe</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>We'd Love to Hear from You!</h2>
+        <p>Your feedback means the world to us! Whether you have a question, a suggestion, or just want to share your brownie experience, feel free to reach out!</p>
+
+        <div class="contact-methods">
+            <div class="contact-item">
+                <h3>📞 Phone</h3>
+                <p>Call us at: <strong>(123) 456-7890</strong></p>
+            </div>
+            <div class="contact-item">
+                <h3>✉️ Email</h3>
+                <p>Email us at: <strong>info@browniebliss.com</strong></p>
+            </div>
+            <div class="contact-item">
+                <h3>🏢 Visit Us</h3>
+                <p>Come see us at: <strong> Downtown, Dubai, United Arab Emirates</strong></p>
+            </div>
+        </div>
+
+        <h3>💬 Drop Us a Message</h3>
+        <form action="submit_contact_form.php" method="POST" class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>
